@@ -4,9 +4,391 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalGarage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <title>LearnDigitalSkill</title>
 </head>
-<body>
+<body >
+
+    <!-- ! Main Page Header Section -->
+    <div class="mainHeader">
+        <div class="hamburgerIcon" onmouseenter="hamburger()" onmouseleave="hamBurgerVanish()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="mainHeaderFirst">
+            <a href="https://www.google.com/" target="_blank"><img src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng" alt=""></a>
+        </div>
+        <div class="mainHeaderSecond">
+            <a href="#">OnlineCourses</a>
+            <a href="#">Certification</a>
+            <a href="#" class="mainHeaderSecondThird">LiveTraining</a>
+            <a href="#" class="mainHeaderSecondForth">RemoteWorking</a>
+            <div onmouseenter="large()" onmouseleave="largeVanish()">
+                <span >More</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </div>
+        <div class="mainHeaderSecond2">
+            <a href="#">OnlineCourses</a>
+            <a href="#">Certification</a>
+            <div onmouseenter="mediumS()" onmouseleave="mediumSVanish()">
+                <span >More</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </div>
+        <div class="mainHeaderThird">
+            <span>SignIn</span>
+            <button>Register</button>
+        </div>
+    </div>
+    <div class="mainLargeScreenList" onmouseenter="large()" onmouseleave="largeVanish()">
+        <a href="#">Tools And Resources</a>
+        <a href="#">Help & FAQs</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="mainMediumScreenList" onmouseenter="mediumS()" onmouseleave="mediumSVanish()">
+        <a href="#">LiveTraining</a>
+        <a href="#">RemoteWorking</a>
+        <a href="#">Tools And Resources</a>
+        <a href="#">Help & FAQs</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="hamburgerMenu" onmouseenter="hamburger()" onmouseleave="hamBurgerVanish()">
+        <div>
+            <img src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng" alt="">
+        </div>
+        <div class="hamburgerMenuFirst" >
+            <a href="#">OnlineCourses</a>
+            <a href="#">Certification</a>
+            <a href="#">LiveTraining</a>
+            <a href="#">RemoteWorking</a>
+            <a href="#">Tools And Resources</a>
+            <a href="#">Help & FAQs</a>
+            <a href="#">Feedback</a>
+        </div>
+        <div class="hamburgerMenuSecond">
+            <span>SignIn</span>
+            <button>
+                Register
+            </button>
+        </div>
+    </div>
+
+    <!-- ! Main Page Second Section -->
+
+    <div class="mainSectionTwo">
+        <p>Get a Google mentor to help your business. Sign up for a free session <a href="#">here.</a></p>
+        <div class="mainSectionTwoBottom">
+
+            <div class="mainSectionTwoBottomLeft">
+                <p>Get new skills for a digital world</p>
+                <div>
+                    <p>Learn at your own pace, with flexible and personalised training 
+                        courses designed to build your confidence and help you thrive.</p>
+                    <ul>
+                        <li>Discover tools to make your business succeed</li>
+                        <li>Improve your interview skills</li>
+                        <li>Prepare for the career you want</li>
+                    </ul>
+                    <button class="button">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+
+            <div class="mainSectionTwoBottomRight">
+                <img src="https://lh3.googleusercontent.com/7IsyjN-m_0Uh7BYJVP5JQY8xaDh3KYdOlihzXkDiLZNsldx9e8cWDcK6fZDScDAB2OuiNzLp246cdwE3svOq4rOazN77Edg2J66c1w=h754-w1000" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ! Main Page Third Section -->
+
+    <div class="mainSectionThree">
+        <div class="mainSectionThreeUpper">
+            <p>Gain today's most in-demand skills</p>
+            <p>Gain the skills you need, whether you're growing your 
+                business, starting a career, or just want to try something new.</p>
+        </div>
+        <div class="mainSectionThreeBottom">
+            <div class="circularBottom circularBottom1">
+                Data and Tech
+            </div>
+            <div class="circularBottom circularBottom2">
+                Digital Marketing
+            </div>
+            <div class="circularBottom circularBottom3">
+                Career Development
+            </div>
+        </div>
+    </div>
+
+    <!-- ! Main Page forth Section -->
+
+    <div class="mainSectionFour">
+        <div class="mainSectionFourLeft">
+            <img src="https://lh3.googleusercontent.com/N0i4GLmSJAbQGObrzvVzqXj0w7OtazRddKyAvVrdT83nDpIGg4qgEJqPOoFHfBMaqfs8Vc4akuHLfL4zc0HGb8UKTN5c9n5j4Wu_hA=h943-w1412" alt="">
+        </div>
+        <div class="mainSectionFourRight">
+            <p>Why learn with Google</p>
+            <p>The majority of the courses are free, and approved by industry
+                 experts, top entrepreneurs and some of the world’s leading 
+                 employers. So you can be sure that you’re learning up-to-date,
+                  real-world skills that help you reach your goal.</p>
+            <p>Browse courses</p>
+        </div>
+    </div>
+
+    <!-- ! Main Page Fifth Section -->
+
+    <div class="mainSectionFifth">
+        <div class="mainSectionFifthUpper">
+            <p>Simple steps for your development</p>
+        </div>
+        <div class="mainSectionFifthLower">
+            <div class="mainSectionFifthLowerCard">
+                <div>
+                    <img src="https://lh3.googleusercontent.com/mtCqnQv6kLOjll-APlF2WKcVo3jVywLGuLYFWdI-VyjhG-X1-_TD9KB66DmCa5NSrHHSTzNA5HPH-sfOyjO1tyxCuBerda6KxAgOiA=h176-w176" alt="">
+                </div>
+                <div>
+                    <p>Choose a Skill</p>
+                    <p>Whether you're a student or a business, at the start or in 
+                        the middle of your journey, here you can choose the lessons 
+                        that are right for you.</p>
+                </div>
+            </div>
+            <div class="mainSectionFifthLowerCard">
+                <div>
+                    <img src="https://lh3.googleusercontent.com/pZm00maF5sXRrbPpG8AvVkdKhXlZiGvw2O34IRsNi_8B2WElphurbJP55MyRNLNwSZLGQXK_ouTuSN6cYt526Y8d154_8lmuvsd2=h176-w176" alt="">
+                </div>
+                <div>
+                    <p>Learn at Your Own Pace</p>
+                    <p>Create your own unique learning plan on your computer, 
+                        smartphone or tablet.</p>
+                </div>
+            </div>
+            <div class="mainSectionFifthLowerCard">
+                <div>
+                    <img src="https://lh3.googleusercontent.com/XKaVIYlfQa8ezYFL47BgJwjywmxZoBAICcUykdejVQhSwtPcRmUknx82Lp8tGzs42FyEhRtSIgrzLt226HN2sa_nr-9OOq01aXa2=h176-w176" alt="">
+                </div>
+                <div>
+                    <p>Learn at Your Own Pace</p>
+                    <p>Track your progress and receive an accredited 
+                        certificate that can help boost your LinkedIn
+                         profile and CV.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! Main Page Sixth Section -->
+
+    <div class="mainSectionSixth">
+        <div>Learn Online</div>
+        <div class="mainSectionSixthUpper">
+            <div class="mainSectionSixthCard">
+                <img src="https://lh3.googleusercontent.com/kQxxsGboKbhDplq-SfJP_U5qyx5iQt3qolFB-Hk-pPnIs-FEzLAX2xGOpULBmGVWV-Nz9T3rSqoMxZegeJOPcbWIRidnOk1fXBy63w=h380-w654" alt="">
+                <p>Seize the digital opportunity</p>
+                <p>Get started</p>
+            </div>
+            <div class="mainSectionSixthCard">
+                <img src="https://lh3.googleusercontent.com/2k2ITZ05IKk03d-SkZzu9HfzPC_hcY33LjLZBFy0J37Z07I1bMCvHg1NxRNBdlou5ToTUtHX4m9HdTnkSj-D-xgD896w8tegtyQkpw=h380-w654" alt="">
+                <p>Explore how websites work</p>
+                <p>Get started</p>
+            </div>
+            <div class="mainSectionSixthCard">
+                <img src="https://lh3.googleusercontent.com/UdQFu9K3MPNaGLAX9unGuPOEyg_IW067elKCJD2i428wAlH_cPbf85Ga28AdRiXAe7rYSvVFlkUEme2ZyMpghoum2Ck25Wc0PYORmg=h380-w654" alt="">
+                <p>Build a strong online strategy</p>
+                <p>Get started</p>
+            </div>
+        </div>
+        <div class="mainSectionSixthLower">
+            
+            <div class="mainSectionSixthCard">
+                <img src="https://lh3.googleusercontent.com/iihZLBz4izhlJc9D7ncyBnkojWCNWuE81oe2SGVp8AIaa0dPESPUFf75tO1uBYVvXlMn-VBLB4GTzU64edAmt9vLQvGRIwAdcA1NUIE=h380-w654" alt="">
+                <p>Manage your time effectively</p>
+                <p>Get started</p>
+            </div>
+            <div class="mainSectionSixthCard">
+                <img src="https://lh3.googleusercontent.com/Rg2n9Zxwt6ICy6krCNZeZMi9v0jrcTaszOAKMueQRNiqU9NFOqcA6N-kcFoucHknlKG2M4EY8q2c9Nd37IaYpENdc2H1TpicmGf0lA=h380-w654" alt="">
+                <p>Create a long-term social media plan</p>
+                <p>Get started</p>
+            </div>
+            <div class="mainSectionSixthCard">
+                <img src="https://lh3.googleusercontent.com/8rsdIeVH8dqHwwQdQRnnX7y7sotSgK5Bsb66meTwqpU5BFJJlZ2hH-PVK9vWvt4x57e0NIQwKEHUWTvOozsg6yHhboEYqZZHZPE1pw=h380-w654" alt="">
+                <p>Learn how to export and expand your business internationally</p>
+                <p>Get started</p>
+            </div>
+        </div>
+        <p>See more topics</p>
+    </div>
     
+
+    <!-- ! Main Page Seventh Section -->
+
+    <div class="mainSectionSeventh">
+        <p>Live Training</p>
+        <p>Explore our free webinars to help you develop new skills.</p>
+        <div class="mainSectionSeventhCards">
+            <div class="mainSectionSeventhCardsUpper">
+                <p>Update your CV and Cover Letter</p>
+                <p>What can you expect from this Google Digital Garage session?
+                     When applying for your next role, a well-built CV and cover
+                 letter can help your job application stand out to emp...</p>
+            </div>
+            <div class="mainSectionSeventhCardsLower">
+                <div class="mainSectionSeventhCardsLowerLeft">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Upcoming Webinar</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-calendar-week"></i>
+                        <p>Available on Wednesday, August 18</p>
+                    </div>
+                </div>
+                <div class="mainSectionSeventhCardsLowerRight">
+                    Register
+                </div>
+            </div>
+        </div>
+        <div class="mainSectionSeventhCards">
+            <div class="mainSectionSeventhCardsUpper">
+                <p>Build Your Personal Brand Online</p>
+                <p>A tailored online presence can help attract new opportunities 
+                    online, whether it’s a shot at a new role or new customers for your business.
+                     If you’re considering how to prese...</p>
+            </div>
+            <div class="mainSectionSeventhCardsLower">
+                <div class="mainSectionSeventhCardsLowerLeft">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Upcoming Webinar</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-calendar-week"></i>
+                        <p>Available on Wednesday, August 18</p>
+                    </div>
+                </div>
+                <div class="mainSectionSeventhCardsLowerRight">
+                    Register
+                </div>
+            </div>
+        </div>
+        <div class="mainSectionSeventhCards">
+            <div class="mainSectionSeventhCardsUpper">
+                <p>Build Engaging Presentations</p>
+                <p>Planning your presentation can help your delivery 
+                   appear more natural and engaging. Learn how different 
+                   storytelling techniques, presentation materials, 
+                   and delivery styles c...</p>
+            </div>
+            <div class="mainSectionSeventhCardsLower">
+                <div class="mainSectionSeventhCardsLowerLeft">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Upcoming Webinar</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-calendar-week"></i>
+                        <p>Available on Wednesday, August 18</p>
+                    </div>
+                </div>
+                <div class="mainSectionSeventhCardsLowerRight">
+                    Register
+                </div>
+            </div>
+        </div>
+        <button class="seventhButton">See More Events</button>
+    </div>
+
+    <!-- ! Main Page Eights Section -->
+
+    <div class="mainSectionEight">
+        <div class="mainSectionEightUpper">
+            <p>How others are growing with our training</p>
+            <p>Hear from real people who have successfully achieved their goals,
+            turned their passions into reality and grown their businesses.</p>
+        </div>
+        <div class="mainSectionEightLower">
+            <div class="mainSectionEightLowerCards">
+                <img src="https://lh3.googleusercontent.com/bgEzLpNNT-bZKvjuSs3lRGgjMZuMp7O6OgsBnXdL-4YxTwlTLIpWH0iPnyRXma-U_5i9M_TTj61iUsyVrAQ7OmM47T6Ue7rscmwBpg=h360-w640" alt="">
+                <p>See how Seyi Ayinla used Digital Garage to turn her hobby into a business helping Nigerian couples in the UK plan their perfect wedding</p>
+                <p>FOR YOUR STARTUP</p>
+            </div>
+            <div class="mainSectionEightLowerCards">
+                <img src="https://lh3.googleusercontent.com/2U0fyl1zqomunw9Hu8HGp2oXNspu-QE9jqQ3ymBiEWj-OJF9DtId4qD9C2KAuvz9lU8cMop8T9LDwFqPjHJ8wv1rn8AUnzSX63Wz=h360-w640" alt="">
+                <p>Learn how Jonathon Blackburn transformed his business after attending Digital Garage.</p>
+                <p>FOR YOUR BUSINESS</p>
+            </div>
+            <div class="mainSectionEightLowerCards">
+                <img src="https://lh3.googleusercontent.com/3SaAa9vkoV4XSaFo_nJGfGir4c_QjrWfyudPyMqmYKFNtc8R5tOg21ZkMI9Q6zP_0fr9eZ0oR2S8CvYx6UE_9jPX20ssGcWZjfaWOQ=h360-w640" alt="">
+                <p>Discover how Adam, a barber from Birmingham, grew his web presence with the help of Google Digital Garage.</p>
+                <p>FOR YOUR BUSINESS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! Main Page Ninth Section -->
+
+    <div class="mainSectionNinth">
+        <p>How we've been recognised</p>
+        <div>
+            <div class="mainSectionNinthCards">
+                <img src="https://lh3.googleusercontent.com/bpgmXPuG584MFxlEGkR31-C23iWZPpOXJn9lh-ygUbkEVNyTKmbFN_4EtJrkxg8yVbjaUg9A3OcIN6WWyeqNAseVXtCAbi7n-PJT2Q=h80-w200" alt="">
+                <p>For Making New Ways Of Learning Possible</p>
+            </div>
+            <div class="mainSectionNinthCards">
+                <img src="https://lh3.googleusercontent.com/ddzluWnnKG4Y4oZenTnaC6Aka98qSqhSPU9nzT3na8dWLE1xmrgK_KTl1InsG8qB6UG-Z5qw6A-hwKwpYrVz-mTkZlaWaszyjFd9ctY=h80-w200" alt="">
+                <p>For responding to customer's new needs and behaviours through innovative experiences</p>
+            </div>
+            <div class="mainSectionNinthCards">
+                <img src="https://lh3.googleusercontent.com/xnu8Mxm3ktOuMVj3D0XHgKvMkxv5GOTtD-HdFq5CJ_OrE_EWgq6ipRucNw-klcdl52Lq99PpnlYyKSz3zGvlh7yiBds5GUhRbrfSJQ=h80-w200" alt="">
+                <p>For creating a valuable technology solution to build audience for publishers</p>
+            </div>
+            <div class="mainSectionNinthCards">
+                <img src="https://lh3.googleusercontent.com/Alvyf4K9S0pyqNyk8qR_UMDouZYK-rsethpnkocbwyIIq6OLmn9Tleb8Oi-5O75tKJyQy7bD7TyLzFP5fccaRhX6GNDeRZX82I3Xlg=h80-w200" alt="">
+                <p>For finding new ways to make education innovative and captivating</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! Main Page tenth Section -->
+
+    <div class="mainSectionTenth">
+        <div class="mainSectionTenthUpper">
+            <span>Share</span>
+            <img src="https://lh3.googleusercontent.com/sw4rOkreSopt2DcXlOCH9HPwHm7pPgeBsO8DFqWnnVPifC4473ztUcLCT49kDnDj5c-ClaRCOQKmBvbrzqICFq7yNgcqq8-byBV0aw=h48-w48" alt="">
+            <img src="https://lh3.googleusercontent.com/O73TcAUC463DfCnA87ap5gw7uWPW2R6owA8p-jcmHYJuysd2BVT_W-1PzUdxk_kbzjQ-OHuTt4W1i3N4hi_KtCkBifUtpZFPlz4R=h48-w55" alt="">
+            <img src="https://lh3.googleusercontent.com/2PFoqNpZ5xu9JK1u_CRR0aiYqGb0K6cOKkzmS2Ux0rucddJgNeMwsniGFMzQWopCdNK9rBzq73N0188sAtK_UFpgUHPPgz2XyDG5=h48-w48" alt="">
+        </div>
+        <div class="mainSectionTenthLower">
+            <div class="mainSectionTenthLowerLeft">
+                <img src="https://lh3.googleusercontent.com/7NabP8N3VdnHYt17iVcUvF_Hr2lFg-ayg1YnYIrvtWCtt-RtrnwVUzLZRUT3DSg3IkZHGqEte1v-_E590aB_AC0uCA-xthGO0d1YAA=h30-w377" alt="">
+                <span>FAQs</span>
+                <span>Privacy & Terms</span>
+            </div>
+            <div class="mainSectionTenthLowerRight">
+                <select name="country" id="country-select">
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="India">India</option>
+                    <option value="France">France</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
