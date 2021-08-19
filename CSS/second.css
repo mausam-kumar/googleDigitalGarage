@@ -559,7 +559,6 @@
   .course-info h3{
     font-family: 'Open Sans', sans-serif;
     color: #3C4043;
-    height: 60px;
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
@@ -568,7 +567,6 @@
   .course-info p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    height: 60px;
     font-weight: 400;
     color: #83868A;
   }
@@ -585,7 +583,6 @@
   .icon-box > p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    height: 60px;
     color: #6B6F73;
     margin-right: 6%;
   }
