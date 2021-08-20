@@ -4,9 +4,552 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalGarage</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/second.css">
+    <title>Free Online Marketing and Career Courses - Google Digital Garage</title>
 </head>
-<body>
+<body >
+
+    <!-- ! Main Page Header Section -->
+    <div class="mainHeader">
+        <div class="hamburgerIcon" onresize=" hideHamburger()" onmouseenter="hamburger()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="mainHeaderFirst">
+            <a href="https://www.google.com/" target="_blank"><img src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng" alt=""></a>
+        </div>
+        <div class="mainHeaderSecond">
+            <a href="#">OnlineCourses</a>
+            <a href="#">Certification</a>
+            <a href="#" class="mainHeaderSecondThird">LiveTraining</a>
+            <a href="#" class="mainHeaderSecondForth">RemoteWorking</a>
+            <div onmouseenter="large()" onmouseleave="largeVanish()">
+                <span >More</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </div>
+        <div class="mainHeaderSecond2">
+            <a href="#">OnlineCourses</a>
+            <a href="#">Certification</a>
+            <div onmouseenter="mediumS()" onmouseleave="mediumSVanish()">
+                <span >More</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </div>
+        <div class="mainHeaderThird">
+            <span>SignIn</span>
+            <button>Register</button>
+        </div>
+    </div>
+    <div class="mainLargeScreenList" onmouseenter="large()" onmouseleave="largeVanish()">
+        <a href="#">Tools And Resources</a>
+        <a href="#">Help & FAQs</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="mainMediumScreenList" onmouseenter="mediumS()" onmouseleave="mediumSVanish()">
+        <a href="#">LiveTraining</a>
+        <a href="#">RemoteWorking</a>
+        <a href="#">Tools And Resources</a>
+        <a href="#">Help & FAQs</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="hamburgerMenu" onmouseenter="hamburger()" onmouseleave="hamBurgerVanish()">
+        <div>
+            <img src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng" alt="">
+        </div>
+        <div class="hamburgerMenuFirst" >
+            <a href="#">OnlineCourses</a>
+            <a href="#">Certification</a>
+            <a href="#">LiveTraining</a>
+            <a href="#">RemoteWorking</a>
+            <a href="#">Tools And Resources</a>
+            <a href="#">Help & FAQs</a>
+            <a href="#">Feedback</a>
+        </div>
+        <div class="hamburgerMenuSecond">
+            <span>SignIn</span>
+            <button>
+                Register
+            </button>
+        </div>
+    </div>
+
+    <!-- ! Second Page Heading Section -->
+
+    <div class="second-heading">
+        <h1>Online Courses</h1>
+        <p>Discover a range of free learning content designed to help your business or in your career. You can
+            learn by selecting individual modules, or dive right in and take an entire cours end-to-end.
+        </p>
+    </div>
     
+    <div class="second-body">
+        <div class="settings">
+            <div class="filter-box">
+                <div>
+                    <p class="filter-head">CATEGORIES</p>
+                    <div>
+                        <input type="checkbox" id="digit-mark">
+                        <label for="digit-mark">Digital Marketing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="career-dev">
+                        <label for="career-dev">Career Development</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="data-tech">
+                        <label for="data-tech">Data and Tech</label>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="filter-box">
+                <div>
+                    <p class="filter-head">COURSE LENGTH</p>
+                    <div>
+                        <input type="checkbox" id="two-hours">
+                        <label for="two-hours">Under 2 hours</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="2-10-hours">
+                        <label for="2-10-hours">2-10 hours</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="11-20-hours">
+                        <label for="11-20-hours">11-20 hours</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="20-hours">
+                        <label for="20-hours">20+ hours</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-box">
+                <div>
+                    <p class="filter-head">CERTIFICATION</p>
+                    <div>
+                        <input type="checkbox" id="free-cert">
+                        <label for="free-cert">Free Certificate</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="paid-cert">
+                        <label for="paid-cert">Paid Certificate</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-box">
+                <div>
+                    <p class="filter-head">COURSE DIFFICULTY</p>
+                    <div>
+                        <input type="checkbox" id="beginner">
+                        <label for="beginner">Beginner</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="intermediate">
+                        <label for="intermediate">Intermediate</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="advanced">
+                        <label for="advanced">Advanced</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-box">
+                <div>
+                    <p class="filter-head">COURSE PROVIDER</p>
+                    <div>
+                        <input type="checkbox" id="google">
+                        <label for="google">Google</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="digit-skills">
+                        <label for="digit-skills">Applied Digital Skills</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="coursera">
+                        <label for="coursera">Coursera</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="darden">
+                        <label for="darden">Darden School of Business, University of Virginia</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="deakin">
+                        <label for="deakin">Deakin University</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="futurelearn">
+                        <label for="futurelearn">FutureLearn</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="goodwill">
+                        <label for="goodwill">Goodwill Community Foundation</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="gcloud">
+                        <label for="gcloud">Google Cloud</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="grasshopper">
+                        <label for="grasshopper">Grasshopper</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="greatlearn">
+                        <label for="greatlearn">Great Learning</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="monash">
+                        <label for="monash">Monash University</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chiao">
+                        <label for="chiao">National Chiao Tung University</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="openclass">
+                        <label for="openclass">OpenClassrooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="simplilearn">
+                        <label for="simplilearn">Simplilearn</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="skillshop">
+                        <label for="skillshop">Skillshop</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="openuni">
+                        <label for="openuni">The Open University</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="udacity">
+                        <label for="udacity">Udacity</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="uniauckland">
+                        <label for="uniauckland">University of Auckland</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="unigroningen">
+                        <label for="unigroningen">University of Groningen</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="unihelsinki">
+                        <label for="unihelsinki">University of Helsinki</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="youtube">
+                        <label for="youtube">YouTube</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-bottom"></div>
+
+            <div class="refresh">
+                <span class="material-icons" id="refresh-icon">refresh</span>
+                <p>Reset filters</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="courses">
+            <h3>Results: 156 courses</h3>
+            <div class="courses-box">
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/JwZ74w1xLAO0n24knlxgL9HZJo3NTN3V44YrtyXZvivX4sHYmiyBs89KIxTOIYTR4IDgFq-VFx6L3gutEpDkpicLzl96KKSYbVh3f08"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Fundamentals of digital marketing</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 26</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 40</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/s40RhwlQAFPM_y7ODSiA5VH6Lhjrltnh-tz295OydaXWGxU8ujKtEEAuM7qsJkrMThodotQEjqCRPJpr724puF4OXkb4vNOysdWW6w=s333"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Get a business online</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 7</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 3</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/jHVvz5HCnhayZkkNznzBmvG1Q1NOIduJe3FK9_TigCL8tQkCn6r1MMiBYVNqSJVIJhaoOSK8vRsdBjQeX9AE1Nfm6cnS8QQclvTR=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Make sure customers find you online</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 4</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 3</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/MivLrLy4ftKvhLd50wEBg97R5cTOJwlNsNR3EY9Ufpsb4HsNJhjUHc7aNFk-TUP-fFgFoC7cOVbs_XJownovu_OjaXO5qBgu_cEzcv8=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Promote a business with online advertising</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 5</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 3</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/osGU8wu8smh2rRagLrMz00riN7bjEpeNPiyw_hGes-gikvJE1EidiLpGQApVEoon3acem0B6LmGEthGQQO3GDePl9-NkneVPdgMy4w=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Expand a business to other countries</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 1</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 1</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/06tZ0JGBZsO-xYxBv2y2ulUUU152bko2dg_XGtH3d3nbB8h8e6LU8mXTDIiTtoIrNu-ATC19XXkO5bIfhoRY6QSTQIqGTk4ohFlY=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Connect with customers over mobile</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 2</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 1</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/Avj9o_7nTbPvK_uOc1Zt0KYjv15q2SGnbJnduJCHyeiQI45VqgB9zXxTlLqbaaPymPF97YoARvzlw5hFBXSmSK_I8YpsrfORQgze=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Promote a business with content</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 4</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 3</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/uspfwxuHCreMyY3SW9Y_Am3T-aQR3V1GeEIlLrju1N143hY2K3FR8bIQlAd89jhg60La69MdKoz3E0C5SLy2BJ2sHfqXo0e31TJ-=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Understand customer needs and online behaviours</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 3</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 1</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/XM54A2-qBEHBLacN-Bv-eZ41ODgKSMN0Gv0TKqBNxtYaRTWTOY37kFcgbT9IWoillafYrjA-6f3LkFmpmfcgstZ7TygLTHI6Oa0_cg=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Build confidence with self-promotion</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 1</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 1</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/DbIXNJ6ggUxjEMDBpkVR-TcxiY5I-7thbaXUzz4ye9Vo_tupqFHriwhBjynAW2ZrnoZvC7VWNK7pxzsXbZHP2mMgOd2gMev5tSVytA=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>How to enhance and protect your online campaign</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 12</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 7</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/IMDe00mcvV_HcBe2tKJfWQUgBzezXEuJe7eoNEO4y9fapGSYJFsH5PY2T5nBD5vgukT6pTeomd35omcGbeluWtT5Jet31E6WZgratg=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Land your next job</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 1</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 1</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="course-img-box">
+                        <img src="https://lh3.googleusercontent.com/xSKdJKOORHnSWWLioNuqEWWosEh9BIF3WoiCXCe-VH9q06EgrkJdAtMC3CB7Ok0vK1XK5Yy1sQAz4gkI5HZcAGQSEKW89m1k8cG4=s344"/>
+                    </div>
+                    <div class="course-info">
+                        <h3>Understand the basics of code</h3>
+                        <p>Created by Google</p>
+                        <div class="icon-box">
+                            <div>
+                                <span class="material-icons">reorder</span>
+                            </div>
+                            <p>Modules: 1</p>
+                            <div>
+                                <span class="material-icons">access_time</span>
+                            </div>
+                            <p>Hours: 1</p>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <span id="arrow" class="material-icons">arrow_forward</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="load-more" id="load-button" type="button">Load more</button>
+
+        </div>
+        
+    </div>
+
+
+    <script src="../JS/second.js"></script>
 </body>
 </html>
