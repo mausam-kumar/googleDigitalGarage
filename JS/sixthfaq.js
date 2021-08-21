@@ -13,7 +13,6 @@ function largeVanish() {
     largeScreen.style.display = 'none'
 }
 
-
 function mediumS() {
     
     mediumScreen.style.display = 'flex'
