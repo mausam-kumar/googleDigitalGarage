@@ -572,6 +572,7 @@
       background-image: url(https://lh3.googleusercontent.com/WqqOQgvDCWBKyCCvRatA2g_N3D4VXtX5BEaul65DIzymFUApKJ0yBglbnLIVLbt8Xcuhc_YKpDlZYWLmSSzfvsTdztq8kJZ2EM7Vxg=s0-rj);
       width: 100%;
       height: 100%;
+      filter: brightness(70%);
       object-fit: cover;
       background-size: cover;
   }
