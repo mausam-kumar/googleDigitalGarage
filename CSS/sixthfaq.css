@@ -496,8 +496,8 @@
         font-size: 40px;
     }
     .questions-head{
-        height: 170px;
-        padding: 1% 14%;
+        /* height: 170px;
+        padding: 1% 14%; */
     }
   }
 
@@ -524,8 +524,8 @@
         font-size: 40px;
     }
     .questions-head{
-        height: 170px;
-        padding: 1% 6%;
+        /* height: 170px; */
+        /* padding: 1% 6%; */
     }
   }
   
@@ -566,8 +566,8 @@
         font-size: 28px;
     }
     .questions-head{
-        height: 130px;
-        padding: 0 3%;
+        /* height: 130px; */
+        /* padding: 0 3%; */
     }
   }
 
