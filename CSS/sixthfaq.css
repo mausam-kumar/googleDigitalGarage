@@ -463,101 +463,17 @@
 
   @media (max-width: 1020px) {
     .mainHeaderSecond {
-      display: none;
+      display: flex;
     }
     .mainHeaderSecond2 {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      display: none;
     }
     
   }
   
-  @media (max-width: 1299px) {
-    .mainHeaderSecond {
-      display: none;
-    }
-    .mainHeaderSecond2 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-    }
-    .mainHeaderThird {
-      margin-right: 3%;
-    }
-
-    .faq-body{
-        width: 80%;
-        border-radius: 4px;
-        top: -50px;
-        position: relative;
-    }
-    .questions-head > h1{
-        font-size: 35px;
-    }
-    
-  }
-
-  @media (max-width: 960px){
-
-    .mainHeaderSecond {
-        display: none;
-    }
-      .mainHeaderSecond2 {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-      .mainHeaderThird {
-        margin-right: 3%;
-    }
-    .faq-body{
-        width: 90%;
-        top: -50px;
-        border-radius: 4px;
-        position: relative;
-    }
-    
-  }
   
-  @media (max-width: 760px) {
-    .hamburgerIcon {
-      margin-left: 4%;
-      display: block;
-      cursor: pointer;
-    }
-    .mainHeaderFirst > a {
-      margin-left: 5%;
-    }
-    .mainHeaderSecond {
-      display: none;
-    }
-    .mainHeaderSecond2 {
-      display: none;
-    }
-    .mainHeaderThird {
-      display: none;
-    }
-    .mainSectionTenthLower{
-      padding: 3%;
-  }
-  .mainSectionTenthLowerLeft{
-      flex-direction: column;
-      width: 70%;
-      justify-content: flex-end;
-      align-items: center;
-  }
-    
-
-    .faq-body{
-        width: 100%;
-        border-radius: 0;
-    }
-    .questions-head h1{
-        font-size: 28px;
-    }
-    
-  }
 
   .questions-head{
       background-color: white;
@@ -573,12 +489,13 @@
 
   .faq-body{
     width: 100%;
-      margin: auto;
+      margin: auto; 
       /* border-radius: 4px; */
       display: flex;
       flex-direction: column;
       background-color: white;
       border: 1px solid #EAEAEA;
+      /* border: 1px solid green; */
   }
 
   .faq-body > div{
@@ -593,9 +510,13 @@
   }
 
   .faq-text{
-    width: 90%;
-    height: 100px;
-    padding: 28px 3%;
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    padding: 4%;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 28px 3%; */
   }
 
   .faq-text p{
@@ -639,4 +560,90 @@
   }
   
 
-  /*# sourceMappingURL=main.css.map */
+
+
+  /*!  Media query */
+  @media (max-width: 1299px) {
+    .mainHeaderSecond {
+      display: none;
+    }
+    .mainHeaderSecond2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .mainHeaderThird {
+      margin-right: 3%;
+    }
+
+    .faq-body{
+        width: 80%;
+        border-radius: 4px;
+        top: -50px;
+        position: relative;
+    }
+    .questions-head > h1{
+        font-size: 35px;
+    }
+    
+  }
+
+  @media (max-width: 960px){
+
+    .mainHeaderSecond {
+        display: none;
+    }
+      .mainHeaderSecond2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+      .mainHeaderThird {
+        margin-right: 3%;
+    }
+    .faq-body{
+        width: 100%;
+        top: -50px;
+        border-radius: 4px;
+        position: relative;
+    }
+    
+  }
+  
+  @media (max-width: 760px) {
+    .hamburgerIcon {
+      margin-left: 4%;
+      display: block;
+      cursor: pointer;
+    }
+    .mainHeaderFirst > a {
+      margin-left: 5%;
+    }
+    .mainHeaderSecond {
+      display: none;
+    }
+    .mainHeaderSecond2 {
+      display: none;
+    }
+    .mainHeaderThird {
+      display: none;
+    }
+    .mainSectionTenthLower{
+      padding: 3%;
+  }
+  .mainSectionTenthLowerLeft{
+      flex-direction: column;
+      width: 70%;
+      justify-content: flex-end;
+      align-items: center;
+  }
+    
+
+    .faq-body{
+        width: 100%;
+    }
+    .questions-head h1{
+        font-size: 28px;
+    }
+    
+  }

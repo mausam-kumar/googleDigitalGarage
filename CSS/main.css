@@ -1149,9 +1149,6 @@
       display: -ms-flexbox;
       display: flex;
     }
-    .mainHeaderThird {
-      margin-right: 3%;
-    }
   }
   
   @media (max-width: 1020px) {
