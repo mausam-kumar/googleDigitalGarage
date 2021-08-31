@@ -494,6 +494,12 @@ body {
 
   }
 
+  @media (max-width:1020px) {
+      .tools-grid{
+        grid-template-columns: repeat(1, 48.5%);
+    }
+  }
+
   @media (max-width: 960px){
 
     .mainHeaderSecond {
@@ -521,9 +527,7 @@ body {
         width: 95%;
     }
 
-    .tools-grid{
-        grid-template-columns: repeat(1, 48.5%);
-    }
+    
 
   }
   
