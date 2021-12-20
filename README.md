@@ -1,4 +1,16 @@
-# Deployed Link : https://google-digital-clone-mausam.netlify.app/
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+<h2> Deployed Link : https://google-digital-clone-mausam.netlify.app/ </h2>
 # googleDigitalGarage
 The Digital Garage is a non-profit nationwide program from Google delivering free digital skills training via an online learning platform. This platform provides individuals with a tailored training plan to learn digital skills, completely for free. All pages are static and try to replicate as same as the original website.
 
